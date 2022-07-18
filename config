@@ -1,19 +1,154 @@
-{ "status": 200, "data": { "prev_page": null, "next_page": null, "has_prev": false, "has_next": false, "total": 10, "current_page": 1, "pages": 1, "results": [ { "name": "ViVO SSL 1", "config_v2ray": "", "server_hostname": "unpkg.com", "description": "SNi: unpkg.com", "username": "", "server_port": 443, "icon_image": "https://i.imgur.com/bVDskV8.png", "user_id": 2, "password": "", "udp_port": "7300", "category_id": 1, "v2ray_uuid": "", "primary_dns_server": "8.8.8.8", "payload": "GET wss://unpkg.com/ HTTP/1.1[lf]Host: br1.pipevpn.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]", "status": "ACTIVE", "secondary_dns_server": "8.8.4.4", "sni": "unpkg.com", "config_mode": "ssl_proxy", "url_check_user": "checkuser.pipevpn.xyz:5000", "config_openvpn": "", "proxy_hostname": "172.67.165.43", "sort_order": 1, "id": 1, "proxy_port": 443, "category": { "name": "OPERADORA ViVO", "id": 1, "status": "ACTIVE", "sort_order": 1, "user_id": 1, "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", "description": "" } 
-
-}, { "name": "ViVO SSL 2", "SSH": "", "server_hostname": "carrinho-pos-familia.vivo.com.br", "description": "SNi: carrinho-pos-familia.vivo.com.br", "username": "", "server_port": 443, "icon_image": "https://i.imgur.com/bVDskV8.png", "user_id": 2, "password": "", "udp_port": "7300", "category_id": 1, "v2ray_uuid": "", "primary_dns_server": "8.8.8.8", "payload": "GET wss://carrinho-pos-familia.vivo.com.br/ HTTP/1.1[crlf]Host: br1.pipevpn.xyz[crlf]Upgrade: websocket[crlf][crlf]", "status": "ACTIVE", "secondary_dns_server": "8.8.4.4", "sni": "carrinho-pos-familia.vivo.com.br", "config_mode": "ssl_proxy", "url_check_user": "checkuser.pipevpn.xyz:5000", "config_openvpn": "", "proxy_hostname": "172.67.165.43", "sort_order": 2, "id": 3, "proxy_port": 443, "category": { "name": "OPERADORA ViVO", "id": 1, "status": "ACTIVE", "sort_order": 1, "user_id": 1, "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", "description": "" } 
-
-}, { "name": "ViVO SSL 3", "SSH": "", "server_hostname": "gedoc.vivo.com.br", "description": "SNi: gedoc.vivo.com.br", "username": "", "server_port": 443, "icon_image": "https://i.imgur.com/bVDskV8.png", "user_id": 2, "password": "", "udp_port": "7300", "category_id": 1, "v2ray_uuid": "", "primary_dns_server": "8.8.8.8", "payload": "GET wss://gedoc.vivo.com.br/ HTTP/1.1[lf]Host: br1.pipevpn.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]", "status": "ACTIVE", "secondary_dns_server": "8.8.4.4", "sni": "money-staging.infinitepay.io", "config_mode": "ssl_proxy", "url_check_user": "checkuser.pipevpn.xyz:5000", "config_openvpn": "", "proxy_hostname": "104.18.6.70", "sort_order": 3, "id": 2, "proxy_port": 443, "category": { "name": "OPERADORA ViVO", "id": 1, "status": "ACTIVE", "sort_order": 1, "user_id": 1, "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", "description": "" } 
-
-}, { "name": "CLARO SSL 1", "SSH": "", "server_hostname": "ct.livestream.com", "description": "SNi: ct.livestream.com", "username": "", "server_port": 443, "icon_image": "https://i.imgur.com/gya9DkH.png", "user_id": 2, "password": "", "udp_port": "7300", "category_id": 2, "v2ray_uuid": "", "primary_dns_server": "8.8.8.8", "payload": "GET wss://ct.livestream.com/ HTTP/1.1[crlf]Host: br1.pipevpn.xyz[crlf]Upgrade: websockt[crlf][crlf]", "status": "ACTIVE", "secondary_dns_server": "8.8.4.4", "sni": "ct.livestream.com", "config_mode": "ssl_proxy", "url_check_user": "checkuser.pipevpn.xyz:5000", "config_openvpn": "", "proxy_hostname": "ct.livestream.com", "sort_order": 1, "id": 4, "proxy_port": 443, "category": { "name": "OPERADORA CLARO", "id": 2, "status": "ACTIVE", "sort_order": 2, "user_id": 2, "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", "description": "" } 
-
-}, { "name": "CLARO SSL 2", "SSH": "", "server_hostname": "br.corp.kaltura.com", "description": "SNi: br.corp.kaltura.com", "username": "", "server_port": 443, "icon_image": "https://i.imgur.com/gya9DkH.png", "user_id": 2, "password": "", "udp_port": "7300", "category_id": 2, "v2ray_uuid": "", "primary_dns_server": "8.8.8.8", "payload": "GET wss://br.corp.kaltura.com/ HTTP/1.1[crlf]Host: br1.pipevpn.xyz[crlf]Upgrade: websockt[crlf][crlf]", "status": "ACTIVE", "secondary_dns_server": "8.8.4.4", "sni": "br.corp.kaltura.com", "config_mode": "ssl_proxy", "url_check_user": "checkuser.pipevpn.xyz:5000", "config_openvpn": "", "proxy_hostname": "br.corp.kaltura.com", "sort_order": 2, "id": 5, "proxy_port": 443, "category": { "name": "OPERADORA CLARO", "id": 2, "status": "ACTIVE", "sort_order": 2, "user_id": 2, "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", "description": "" } 
-
-}, { "name": "CLARO SSL 3", "SSH": "", "server_hostname": "4.icanhazip.com", "description": "SNi: 4.icanhazip.com", "username": "", "server_port": 443, "icon_image": "https://i.imgur.com/gya9DkH.png", "user_id": 2, "password": "", "udp_port": "7300", "category_id": 2, "v2ray_uuid": "", "primary_dns_server": "8.8.8.8", "payload": "GET wss://4.icanhazip.com/ HTTP/1.1[crlf]Host: br1.pipevpn.xyz[crlf]Upgrade: websockt[crlf][crlf]", "status": "ACTIVE", "secondary_dns_server": "8.8.4.4", "sni": "4.icanhazip.com", "config_mode": "ssl_proxy", "url_check_user": "checkuser.pipevpn.xyz:5000", "config_openvpn": "", "proxy_hostname": "communitystaging.kaltura.com", "sort_order": 3, "id": 6, "proxy_port": 443, "category": { "name": "OPERADORA CLARO", "id": 2, "status": "ACTIVE", "sort_order": 2, "user_id": 2, "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", "description": "" } 
-
-}, { "name": "TIM SSL 1", "SSH": "", "server_hostname": "www.alura.com.br", "description": "SNi: www.alura.com.br", "username": "", "server_port": 443, "icon_image": "https://i.imgur.com/FeFzXYB.png", "user_id": 2, "password": "", "udp_port": "7300", "category_id": 3, "v2ray_uuid": "", "primary_dns_server": "8.8.8.8", "payload": "GET wss://www.alura.com.br/ HTTP/1.1[lf]Host: br1.pipevpn.xyz[crlf]Upgrade: websocket[crlf][crlf]", "status": "ACTIVE", "secondary_dns_server": "8.8.4.4", "sni": "www.alura.com.br", "config_mode": "ssl_proxy", "url_check_user": "checkuser.pipevpn.xyz:5000", "config_openvpn": "", "proxy_hostname": "172.67.188.168", "sort_order": 1, "id": 7, "proxy_port": 443, "category": { "name": "OPERADORA TIM", "id": 3, "status": "ACTIVE", "sort_order": 3, "user_id": 3, "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", "description": "" } 
-
-}, { "name": "TIM SSL 2", "SSH": "", "server_hostname": "api-tim.oston.io", "description": "SNi: api-tim.oston.io", "username": "", "server_port": 443, "icon_image": "https://i.imgur.com/FeFzXYB.png", "user_id": 2, "password": "", "udp_port": "7300", "category_id": 3, "v2ray_uuid": "", "primary_dns_server": "8.8.8.8", "payload": "GET wss://api-tim.oston.io/ HTTP/1.1[lf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", "status": "ACTIVE", "secondary_dns_server": "8.8.4.4", "sni": "api-tim.oston.io", "config_mode": "ssl_proxy", "url_check_user": "checkuser.pipevpn.xyz:5000", "config_openvpn": "", "proxy_hostname": "172.64.147.215", "sort_order": 2, "id": 8, "proxy_port": 443, "category": { "name": "OPERADORA TIM", "id": 3, "status": "ACTIVE", "sort_order": 3, "user_id": 3, "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", "description": "" } 
-
-}, { "name": "TIM SSL 3", "SSH": "", "server_hostname": "static.r4you.co", "description": "SNi: static.r4you.co", "username": "", "server_port": 443, "icon_image": "https://i.imgur.com/FeFzXYB.png", "user_id": 2, "password": "", "udp_port": "7300", "category_id": 3, "v2ray_uuid": "", "primary_dns_server": "8.8.8.8", "payload": "GET wss://static.r4you.co/ HTTP/1.1[lf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", "status": "ACTIVE", "secondary_dns_server": "8.8.4.4", "sni": "static.r4you.co", "config_mode": "ssl_proxy", "url_check_user": "checkuser.pipevpn.xyz:5000", "config_openvpn": "", "proxy_hostname": "static.r4you.co", "sort_order": 3, "id": 9, "proxy_port": 443, "category": { "name": "OPERADORA TIM", "id": 3, "status": "ACTIVE", "sort_order": 3, "user_id": 3, "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", "description": "" } 
-
-}, { "name": "Oi SSL", "SSH": "", "server_hostname": "www.hbogo.com.br", "description": "SNi: www.hbogo.com.br", "username": "", "server_port": 443, "icon_image": "https://i.imgur.com/a3sEEbm.png", "user_id": 2, "password": "", "udp_port": "7300", "category_id": 4, "v2ray_uuid": "", "primary_dns_server": "8.8.8.8", "payload": "GET wss://www.hbogo.com.br/ HTTP/1.1[lf]Host: br1.pipevpn.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]", "status": "ACTIVE", "secondary_dns_server": "8.8.4.4", "sni": "www.hbogo.com.br", "config_mode": "ssl_proxy", "url_check_user": "checkuser.pipevpn.xyz:5000", "config_openvpn": "", "proxy_hostname": "104.16.51.91", "sort_order": 1, "id": 11, "proxy_port": 443, "category": { "name": "OPERADORA OI", "id": 4, "status": "ACTIVE", "sort_order": 4, "user_id": 4, "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", "description": "" } } ] } }
+{
+  "status": 200,
+  "data": {
+    "prev_page": null,
+    "next_page": null,
+    "has_prev": false,
+    "has_next": false,
+    "total": 10,
+    "current_page": 1,
+    "pages": 1,
+    "results": [
+      {
+        "name": "ViVO",
+        "SSH": "",
+        "server_hostname": "fitality.gr",
+        "description": "SNi: fitality.gr",
+        "username": "",
+        "server_port": 443,
+        "icon_image": "https://i.imgur.com/bVDskV8.png",
+        "user_id": 2,
+        "password": "",
+        "udp_port": "7300",
+        "category_id": 1,
+        "v2ray_uuid": "",
+        "primary_dns_server": "8.8.8.8",
+        "payload": "GET wss://fitality.gr/ HTTP/1.1[crlf]Host: br1.pipevpn.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+        "status": "ACTIVE",
+        "secondary_dns_server": "8.8.4.4",
+        "sni": "fitality.gr",
+        "config_mode": "ssl_proxy",
+        "url_check_user": "checkuser.pipevpn.xyz:5000",
+        "config_openvpn": "",
+        "proxy_hostname": "fitality.gr",
+        "sort_order": 3,
+        "id": 2,
+        "proxy_port": 443,
+        "category": {
+          "name": "OPERADORA ViVO",
+          "id": 1,
+          "status": "ACTIVE",
+          "sort_order": 1,
+          "user_id": 1,
+          "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c",
+          "description": ""
+        }
+      },
+      {
+        "name": "CLARO",
+        "SSH": "",
+        "server_hostname": "4.icanhazip.com",
+        "description": "SNi: 4.icanhazip.com",
+        "username": "",
+        "server_port": 443,
+        "icon_image": "https://i.imgur.com/gya9DkH.png",
+        "user_id": 2,
+        "password": "",
+        "udp_port": "7300",
+        "category_id": 2,
+        "v2ray_uuid": "",
+        "primary_dns_server": "8.8.8.8",
+        "payload": "GET wss://4.icanhazip.com/ HTTP/1.1[crlf]Host: br1.pipevpn.xyz[crlf]Upgrade: websockt[crlf][crlf]",
+        "status": "ACTIVE",
+        "secondary_dns_server": "8.8.4.4",
+        "sni": "4.icanhazip.com",
+        "config_mode": "ssl_proxy",
+        "url_check_user": "checkuser.pipevpn.xyz:5000",
+        "config_openvpn": "",
+        "proxy_hostname": "4.icanhazip.com",
+        "sort_order": 3,
+        "id": 6,
+        "proxy_port": 443,
+        "category": {
+          "name": "OPERADORA CLARO",
+          "id": 2,
+          "status": "ACTIVE",
+          "sort_order": 2,
+          "user_id": 2,
+          "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c",
+          "description": ""
+        }
+      },
+      {
+        "name": "TiM",
+        "SSH": "",
+        "server_hostname": "m.timbancavirtual.com.br",
+        "description": "SNi: m.timbancavirtual.com.br",
+        "username": "",
+        "server_port": 443,
+        "icon_image": "https://i.imgur.com/FeFzXYB.png",
+        "user_id": 2,
+        "password": "",
+        "udp_port": "7300",
+        "category_id": 3,
+        "v2ray_uuid": "",
+        "primary_dns_server": "8.8.8.8",
+        "payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[lf]Host: br1.pipevpn.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+        "status": "ACTIVE",
+        "secondary_dns_server": "8.8.4.4",
+        "sni": "m.timbancavirtual.com.br",
+        "config_mode": "ssl_proxy",
+        "url_check_user": "checkuser.pipevpn.xyz:5000",
+        "config_openvpn": "",
+        "proxy_hostname": "",
+        "sort_order": 1,
+        "id": 7,
+        "proxy_port": 443,
+        "category": {
+          "name": "OPERADORA TIM",
+          "id": 3,
+          "status": "ACTIVE",
+          "sort_order": 3,
+          "user_id": 3,
+          "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c",
+          "description": ""
+        }
+      },
+      {
+        "name": "Oi",
+        "SSH": "",
+        "server_hostname": "www.hbogo.com.br",
+        "description": "SNi: www.hbogo.com.br",
+        "username": "",
+        "server_port": 443,
+        "icon_image": "https://i.imgur.com/a3sEEbm.png",
+        "user_id": 2,
+        "password": "",
+        "udp_port": "7300",
+        "category_id": 4,
+        "v2ray_uuid": "",
+        "primary_dns_server": "8.8.8.8",
+        "payload": "GET wss://www.hbogo.com.br/ HTTP/1.1[lf]Host: br1.pipevpn.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+        "status": "ACTIVE",
+        "secondary_dns_server": "8.8.4.4",
+        "sni": "www.hbogo.com.br",
+        "config_mode": "ssl_proxy",
+        "url_check_user": "checkuser.pipevpn.xyz:5000",
+        "config_openvpn": "",
+        "proxy_hostname": "104.16.51.91",
+        "sort_order": 1,
+        "id": 11,
+        "proxy_port": 443,
+        "category": {
+          "name": "OPERADORA OI",
+          "id": 4,
+          "status": "ACTIVE",
+          "sort_order": 4,
+          "user_id": 4,
+          "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c",
+          "description": ""
+        }
+      }
+    ]
+  }
+}
